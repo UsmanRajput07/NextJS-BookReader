@@ -1,3 +1,14 @@
-export default function Home() {
-  return <h1>hlo</h1>;
-}
+import Banner from "@/components/banner/Banner";
+import BookList from "@/components/Books/BookCards";
+
+
+const Home = () => {
+  return (
+    <>
+      <Banner />
+      <BookList />
+    </>
+  );
+};
+
+export default Home;

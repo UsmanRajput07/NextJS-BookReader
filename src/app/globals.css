@@ -9,9 +9,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #caf3ec;
+    --background: #dadada;
     --foreground: #ededed;
   }
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar in WebKit browsers */
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* Hides the scrollbar in IE and Edge */
+  scrollbar-width: none; /* Hides the scrollbar in Firefox */
 }
 
 body {
