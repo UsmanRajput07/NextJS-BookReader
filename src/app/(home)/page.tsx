@@ -1,5 +1,5 @@
-import Banner from "@/components/banner/Banner";
-import BookList from "@/components/Books/BookCards";
+import Banner from "@/app/(home)/components/Banner";
+import BookList from "@/app/(home)/components/BookCards";
 
 
 const Home = () => {
