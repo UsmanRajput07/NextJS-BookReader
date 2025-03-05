@@ -3,8 +3,9 @@ export type Book={
     title: string,
     genre: string,
     file: string,
-    coverImg: number,
+    coverImg: string,
     author: User
+    description: string
 }
 
 export type User={
