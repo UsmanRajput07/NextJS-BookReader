@@ -23,8 +23,8 @@ export default async function BookList() {
                   src={item.coverImg}
                   alt="Book Image"
                   width={200}
-                  height={150}
-                  className="w-40 h-full object-cover rounded-md"
+                  height={200}
+                  className="w-40 h-full object-contain rounded-md"
                 />
               </div>
 
@@ -36,7 +36,7 @@ export default async function BookList() {
                   {item?.author?.name || "Author Name"}
                 </p>
                 <Link
-                  href={`/books/${item.id}`}
+                  href={`/book/${item._id}`}
                   className="mt-4 px-4 py-2 text-sm font-medium text-white bg-blue-400 rounded-md hover:bg-blue-700 inline-block"
                 >
                   Read More
