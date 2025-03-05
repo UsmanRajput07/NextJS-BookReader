@@ -6,8 +6,8 @@ export default function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
-            <Link href={"/"}>
+          <div >
+            <Link href={"/"} className="flex items-center">
               <svg
                 className="w-8 h-8 text-blue-600"
                 xmlns="http://www.w3.org/2000/svg"
@@ -22,10 +22,10 @@ export default function Navbar() {
                   d="M12 4v16m8-8H4"
                 />
               </svg>
+              <span className="ml-3 text-xl font-semibold text-gray-800">
+                BookSite
+              </span>
             </Link>
-            <span className="ml-3 text-xl font-semibold text-gray-800">
-              BookSite
-            </span>
           </div>
 
           <div className="flex space-x-4">
